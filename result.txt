@@ -1,0 +1,22 @@
+Ticker: ABB
+                                          Bid          Ask
+     OrderCount      TotalSize          Price    -     Price      TotalSize     OrderCount
+              1            100        24.1315        21.1300            800              1
+              1            100        23.1300        22.1300            100              1
+                                                     23.1300            200              2
+
+Ticker: ABCB
+                                          Bid          Ask
+     OrderCount      TotalSize          Price    -     Price      TotalSize     OrderCount
+              1            100        24.1315
+
+Ticker: B
+                                          Bid          Ask
+     OrderCount      TotalSize          Price    -     Price      TotalSize     OrderCount
+              1            100        24.1315
+
+Ticker: BBCBE
+                                          Bid          Ask
+     OrderCount      TotalSize          Price    -     Price      TotalSize     OrderCount
+              1            100        24.1315
+

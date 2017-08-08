@@ -1,0 +1,27 @@
+How to build 
+
+make
+
+
+How to run 
+
+./orderprocessor input
+
+
+Note
+
+* OrderBookManager::instance().print(cout) is currently commmented out,
+ which can print out all OrderBooks.
+
+* For example, OrderBookManager::instance().print(cout, "ABB")
+  can be used to print out one OrderBook
+
+* The mapping between "symbol" and "OrderBook" is implemented by using Trie
+
+* In each side of OrderBook, there are:
+  multimap:   save the mapping from "price" to "size, orderID" pair
+  map (using hash_map will be better): save the mapping from "orderID" to "multimap::iterator"
+  
+  The running time for Add, Mod, Del are all no more than Log(N)
+
+
